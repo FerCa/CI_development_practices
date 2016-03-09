@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony/dependency-injection": "^3.0",
+        "symfony/config": "^3.0",
+        "symfony/yaml": "^3.0"
+    }
+}

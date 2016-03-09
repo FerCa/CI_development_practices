@@ -1,0 +1,9 @@
+parameters:
+
+services:
+    userNotifier:
+        class:     UserNotification\NullUserNotification
+
+    userController:
+        class:     Controller\UserController
+        arguments: ['@userNotifier']
