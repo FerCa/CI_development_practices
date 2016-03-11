@@ -3,5 +3,10 @@
         "symfony/dependency-injection": "^3.0",
         "symfony/config": "^3.0",
         "symfony/yaml": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
     }
 }
