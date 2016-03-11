@@ -44,9 +44,9 @@ Instead of the NullObject you could even create a dummy object implementing some
 
 You can execute the code example running:
 
-```
+```bash
 php main.php
-``
+```
 
 Then change in [services.yml](services.yml) the injected userNotifier class from "UserNotification\NullUserNotification" to "UserNotification\WebsocketUserNotification" and run it again.
 
